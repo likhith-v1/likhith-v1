@@ -33,4 +33,3 @@ AI/ML engineering internships with a path to full-time — especially roles wher
 - LinkedIn: [likhith-v](https://www.linkedin.com/in/likhith-v-45230a286/)
 
 ---
-*Currently deep in KV-cache internals — ask me about paged attention.*
