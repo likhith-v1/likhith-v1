@@ -15,7 +15,7 @@ A from-scratch LLM inference server, and my main portfolio project:
 
 ## 🗂️ Other work
 
-- **Predictive Ghost-Text Daemon** — always-on autocomplete via a resident Unix-socket inference process, sub-100ms latency budget, prefix caching, and shell-history personalization through a fine-tuning pipeline with secrets-scrubbing
+- **Predictive Ghost-Text Daemon (Ideation)** — always-on autocomplete via a resident Unix-socket inference process, sub-100ms latency budget, prefix caching, and shell-history personalization through a fine-tuning pipeline with secrets-scrubbing
 - **`prr`** — a self-hosted code-review bot pairing an Ollama model with `ruff`, `mypy`, and `bandit`; results normalized through a typed Pydantic schema, posts inline PR comments on GitHub
 
 ## 🧠 Skills
