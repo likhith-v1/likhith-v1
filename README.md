@@ -4,19 +4,19 @@ AI/ML engineer-in-training building inference systems from scratch. B.Tech CS (A
 
 I care about understanding systems down to the metal rather than gluing together APIs. That shows up as a preference for local-first, privacy-first, zero-external-dependency engineering — from data prep through inference serving, in industrial environments where data never leaves the perimeter.
 
-## 🔧 Currently building — `inferd`
+## 🔧 Currently building
 
-A from-scratch LLM inference server, and my main portfolio project:
-
+`inferd` - A from-scratch LLM inference server,
 - **QLoRA fine-tuning** pipeline on Qwen3-27B for domain adaptation
 - **Speculative decoding** with rejection sampling — draft model distilled via sequence-level KD against the fine-tuned target's own generations
 - **Paged KV-cache** implemented via Triton
 - **Continuous batching** — benchmarked throughput scaling ~6x from one to eight concurrent users
+  
+**`prr`** — a self-hosted code-review bot pairing an Ollama model with `ruff`, `mypy`, and `bandit`; results normalized through a typed Pydantic schema, posts inline PR comments on GitHub
+  
+**Predictive Ghost-Text Daemon (Ideation)** — always-on autocomplete via a resident Unix-socket inference process, sub-100ms latency budget, prefix caching, and shell-history personalization through a fine-tuning pipeline with secrets-scrubbing
 
-## 🗂️ Other work
 
-- **Predictive Ghost-Text Daemon (Ideation)** — always-on autocomplete via a resident Unix-socket inference process, sub-100ms latency budget, prefix caching, and shell-history personalization through a fine-tuning pipeline with secrets-scrubbing
-- **`prr`** — a self-hosted code-review bot pairing an Ollama model with `ruff`, `mypy`, and `bandit`; results normalized through a typed Pydantic schema, posts inline PR comments on GitHub
 
 ## 🧠 Skills
 
